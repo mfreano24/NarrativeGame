@@ -15,11 +15,11 @@ C:/Users/Frean/wkspaces/SCHOOL/VIST489/NarrativeGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56177
+61923
 Successfully changed project path to: C:/Users/Frean/wkspaces/SCHOOL/VIST489/NarrativeGame
 C:/Users/Frean/wkspaces/SCHOOL/VIST489/NarrativeGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,45 +35,1823 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.200883 seconds.
+Registered in 0.001366 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.783 seconds
+- Completed reload, in  1.858 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5783ms)
-		BeginReloadAssembly (2298ms)
+	ReloadAssembly (1858ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (833ms)
-			LoadAssemblies (2302ms)
+		EndReloadAssembly (269ms)
+			LoadAssemblies (34ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (532ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (117ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (49ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.388685 seconds.
+Registered in 0.002066 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.4 MB.
+System memory in use after: 139.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 2.096200 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.753200 ms  DeleteObjects: 0.098600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTiles.mat
+  artifactKey: Guid(fd8b812f2afcb2b4c877e4d588757bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTiles.mat using Guid(fd8b812f2afcb2b4c877e4d588757bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a4d7f1b0358d39883e4470b8966035') in 0.322300 seconds 
+  Import took 0.329043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1097.973839 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/AmbienceExposure4k.hdr
+  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c45ea47c44c8fcec8b811a19e3f985') in 0.352572 seconds 
+  Import took 0.482433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-5_comp_dir.png
+  artifactKey: Guid(631c3e0ea218e994e8b79eda879db9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-5_comp_dir.png using Guid(631c3e0ea218e994e8b79eda879db9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45f0c7a0f880a821fc96da287267bf7') in 0.051275 seconds 
+  Import took 0.054635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-6_comp_dir.png
+  artifactKey: Guid(0cd424a69f973b2459f9ef5406f56e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-6_comp_dir.png using Guid(0cd424a69f973b2459f9ef5406f56e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9cb0730901fcc59f325c7c539df7c7') in 0.013961 seconds 
+  Import took 0.017357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-9_comp_light.exr
+  artifactKey: Guid(390f411efe83278418c79e75b64b0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-9_comp_light.exr using Guid(390f411efe83278418c79e75b64b0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c795fcd77c627b0fac49738339a956e') in 0.025802 seconds 
+  Import took 0.029106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-37_comp_light.exr
+  artifactKey: Guid(aa74c007132aac942b8bc5746e8ba5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-37_comp_light.exr using Guid(aa74c007132aac942b8bc5746e8ba5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f68dafc9e586ae4b83df919a672ee09') in 0.010320 seconds 
+  Import took 0.013974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
+  artifactKey: Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudRight.hdr using Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34e90d7d02781768be9fa019c455b1c') in 0.034059 seconds 
+  Import took 0.038115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-21_comp_light.exr
+  artifactKey: Guid(9c6c198a79483314192d0b58d4285dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-21_comp_light.exr using Guid(9c6c198a79483314192d0b58d4285dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9360610596699246c45f13439714638f') in 0.009108 seconds 
+  Import took 0.012369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-0_comp_light.exr
+  artifactKey: Guid(11e4a704ce2cdd24eb09df9e2b4bf1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-0_comp_light.exr using Guid(11e4a704ce2cdd24eb09df9e2b4bf1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dae341376815a8f7c1e6ebda0bd408') in 0.010317 seconds 
+  Import took 0.013575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-37_comp_dir.png
+  artifactKey: Guid(2383cd38c6e6675419bfce0f5bfd89b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-37_comp_dir.png using Guid(2383cd38c6e6675419bfce0f5bfd89b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35037e8c8461c66ef82d876551a70c98') in 0.009166 seconds 
+  Import took 0.012860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-6_comp_light.exr
+  artifactKey: Guid(55fe4e50081ba59428a3b992548d974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-6_comp_light.exr using Guid(55fe4e50081ba59428a3b992548d974d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411bb471c2fc9a044f1d64c6f9893c5b') in 0.008565 seconds 
+  Import took 0.011851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/HighFantasy4k.hdr
+  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7c7e39f6fc3ff82cd266592d9cc7cb') in 0.060945 seconds 
+  Import took 0.065697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-17_comp_light.exr
+  artifactKey: Guid(57523095fc22beb4a80d21651fd3f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-17_comp_light.exr using Guid(57523095fc22beb4a80d21651fd3f4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea9aa36d9c0b781594d2a9b17039926') in 0.008836 seconds 
+  Import took 0.012141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-7_comp_dir.png
+  artifactKey: Guid(80dc0aab35cda624da2c751e4379aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-7_comp_dir.png using Guid(80dc0aab35cda624da2c751e4379aa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa70748acdb1a836bd2e3350a560d5a') in 0.008800 seconds 
+  Import took 0.012614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6487eda94e757b6ece516f4b593dd94a') in 0.012478 seconds 
+  Import took 0.015931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-34_comp_dir.png
+  artifactKey: Guid(d5cd3f9f9e25b4f4ea43ed1ba1d12d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-34_comp_dir.png using Guid(d5cd3f9f9e25b4f4ea43ed1ba1d12d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b3b6cd541ad2d504fdca5143d03367') in 0.009246 seconds 
+  Import took 0.012934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-3_comp_dir.png
+  artifactKey: Guid(88db59fe154e59e46a5b10f1c52c59a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-3_comp_dir.png using Guid(88db59fe154e59e46a5b10f1c52c59a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d228d19185736bb0f225a422cb3566') in 0.008619 seconds 
+  Import took 0.011935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-29_comp_light.exr
+  artifactKey: Guid(6f4b7924c2dad5e4db4fc0e4e0e06328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-29_comp_light.exr using Guid(6f4b7924c2dad5e4db4fc0e4e0e06328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d0021e4b48a12c1fa1c6d2f5b43b75') in 0.008820 seconds 
+  Import took 0.012265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-27_comp_dir.png
+  artifactKey: Guid(39ab1d71c4db59d42b3ae2a2bbca985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-27_comp_dir.png using Guid(39ab1d71c4db59d42b3ae2a2bbca985e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd386e0bd76bb09802a71e591d6b07b') in 0.008618 seconds 
+  Import took 0.012830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-5_comp_light.exr
+  artifactKey: Guid(53ffb56613fd7de4a85e7199035dd65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-5_comp_light.exr using Guid(53ffb56613fd7de4a85e7199035dd65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08780b80ff7ebfb1a61f7df28e5ef3d') in 0.008943 seconds 
+  Import took 0.012347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-10_comp_light.exr
+  artifactKey: Guid(d117a490219e7fe4dac30411780284b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-10_comp_light.exr using Guid(d117a490219e7fe4dac30411780284b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d4db536f9bb9607f8016b35cb52ba8') in 0.008672 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-36_comp_light.exr
+  artifactKey: Guid(7c43bb18027591a4482a5e3e2c144408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-36_comp_light.exr using Guid(7c43bb18027591a4482a5e3e2c144408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87dea2aba716308bb9d1c738fbcbcdfc') in 0.009058 seconds 
+  Import took 0.012340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayRight.hdr
+  artifactKey: Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayRight.hdr using Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c1596f31f48a3c602a4c80c2a187f7') in 0.012188 seconds 
+  Import took 0.015968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-18_comp_light.exr
+  artifactKey: Guid(f201fb7c9c654744ea666bdf34c0035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-18_comp_light.exr using Guid(f201fb7c9c654744ea666bdf34c0035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba77ba30386b57a5a7f388396e65f6e') in 0.008799 seconds 
+  Import took 0.012281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-36_comp_dir.png
+  artifactKey: Guid(d687456bb380eac47a88e1e75245316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-36_comp_dir.png using Guid(d687456bb380eac47a88e1e75245316d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd908dd426e4da3472a1dfc5affba361c') in 0.010123 seconds 
+  Import took 0.013967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0796ac0635416780591dfecee7c439') in 0.008849 seconds 
+  Import took 0.012145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-8_comp_dir.png
+  artifactKey: Guid(3f9e96cd4c2160f44ab65d4b35264da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-8_comp_dir.png using Guid(3f9e96cd4c2160f44ab65d4b35264da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d0be65544c09bdde4a4c956f8635e5') in 0.008709 seconds 
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-14_comp_dir.png
+  artifactKey: Guid(fcbc0a298ad13ec4193352424a18433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-14_comp_dir.png using Guid(fcbc0a298ad13ec4193352424a18433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dfd396d835284eb6ef11c8dfb73b1e') in 0.009471 seconds 
+  Import took 0.012839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/DarkStorm4K.hdr
+  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbed52d87593cec32830e77c3cc219c0') in 0.092787 seconds 
+  Import took 0.097346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayLeft.hdr
+  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f25ef01b026f299f306d1498642b3ef') in 0.028049 seconds 
+  Import took 0.031458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-2_comp_light.exr
+  artifactKey: Guid(99cce3bd06d30924b900f5c026ed2957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-2_comp_light.exr using Guid(99cce3bd06d30924b900f5c026ed2957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829d3331bbcd40ea7a4f98fa32c7ff37') in 0.008070 seconds 
+  Import took 0.012013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CasualDay4K.hdr
+  artifactKey: Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CasualDay4K.hdr using Guid(1153dc89e66880c4eb7adc16ba588855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894c8059e47b24de61a192a24c681396') in 0.058376 seconds 
+  Import took 0.063511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e0dc8175375bdf247ba408b354b753a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-0_comp_dir.png using Guid(e0dc8175375bdf247ba408b354b753a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bb58d52109b447dce6436d05dc5883') in 0.008871 seconds 
+  Import took 0.012254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBack.hdr
+  artifactKey: Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBack.hdr using Guid(a779becf00399924184cd13e046a100e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdf5e8619639611686dc8a8d3e934c') in 0.014989 seconds 
+  Import took 0.018328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-16_comp_light.exr
+  artifactKey: Guid(37750160a6252984c8a95eaf70748611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-16_comp_light.exr using Guid(37750160a6252984c8a95eaf70748611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e85a9e2cd6c48e86abfb21e74f25f54') in 0.009257 seconds 
+  Import took 0.012850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-17_comp_dir.png
+  artifactKey: Guid(84ea9636c8d7e404588bfce791377fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-17_comp_dir.png using Guid(84ea9636c8d7e404588bfce791377fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c82dcc62566507d7ee32818ad316b52') in 0.008909 seconds 
+  Import took 0.012321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-15_comp_dir.png
+  artifactKey: Guid(4988a4a333ba83a4d821819b46d4ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-15_comp_dir.png using Guid(4988a4a333ba83a4d821819b46d4ca66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e6a19eb36df80eca60739ffcd8582') in 0.009762 seconds 
+  Import took 0.013132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-15_comp_light.exr
+  artifactKey: Guid(1f8a03fb841db5744b7a08f0650fe7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-15_comp_light.exr using Guid(1f8a03fb841db5744b7a08f0650fe7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081507dda06de0f64029964556d25590') in 0.008491 seconds 
+  Import took 0.012085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-16_comp_dir.png
+  artifactKey: Guid(73a42c076b50a504c82f4aff1a7a09df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-16_comp_dir.png using Guid(73a42c076b50a504c82f4aff1a7a09df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb8de5a0e6bea6bd171706d4135d378') in 0.008887 seconds 
+  Import took 0.012124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-32_comp_light.exr
+  artifactKey: Guid(b19d7c4293971cb49940d036f594d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-32_comp_light.exr using Guid(b19d7c4293971cb49940d036f594d77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77d336e4d100813c6cc75e3b8851b9d') in 0.008671 seconds 
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-30_comp_light.exr
+  artifactKey: Guid(32d87a04249e31049acd4bbb3aca4c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-30_comp_light.exr using Guid(32d87a04249e31049acd4bbb3aca4c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ddd8c9b2f36b59a845cff32ea2711') in 0.008846 seconds 
+  Import took 0.012696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-20_comp_light.exr
+  artifactKey: Guid(b64e7b432badc984fab471fca72eb18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-20_comp_light.exr using Guid(b64e7b432badc984fab471fca72eb18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daf44aeb1f1cd9aba74ca7ade567dd8') in 0.008929 seconds 
+  Import took 0.012749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-11_comp_dir.png
+  artifactKey: Guid(c7b080d1dad45b94ca86cbc831172b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-11_comp_dir.png using Guid(c7b080d1dad45b94ca86cbc831172b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed33a47f90bcc006edb2327de10f26d7') in 0.009190 seconds 
+  Import took 0.012512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-12_comp_dir.png
+  artifactKey: Guid(f0199f8d2f8448d40b233c801c6118ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-12_comp_dir.png using Guid(f0199f8d2f8448d40b233c801c6118ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54efd5376c0b5b974c49b6ea3c83fffe') in 0.009165 seconds 
+  Import took 0.012884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-22_comp_light.exr
+  artifactKey: Guid(0ba8b33585b1cba47aa2a9d40ab73017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-22_comp_light.exr using Guid(0ba8b33585b1cba47aa2a9d40ab73017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71805ec9466c2f8df3b36ec1b2174ebd') in 0.009038 seconds 
+  Import took 0.012847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-19_comp_light.exr
+  artifactKey: Guid(71212dea7fc1d9a4ebc29f9d51daa948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-19_comp_light.exr using Guid(71212dea7fc1d9a4ebc29f9d51daa948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceff84a3ac14129a38cad4bca9f72792') in 0.008910 seconds 
+  Import took 0.012932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f636580e81a1a1d1e7a116c6c699e16') in 0.010825 seconds 
+  Import took 0.014226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-26_comp_dir.png
+  artifactKey: Guid(f3be134f4020cc34fa46cda1fb275d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-26_comp_dir.png using Guid(f3be134f4020cc34fa46cda1fb275d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b27a23b357d226973e5e950d4a5986') in 0.008130 seconds 
+  Import took 0.011517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Materials/debug.png
+  artifactKey: Guid(6e5c36e7df95db646b0430d5fc263d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/debug.png using Guid(6e5c36e7df95db646b0430d5fc263d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19f9d55a55e6c4a89bbf199e9eaa5f6') in 0.011559 seconds 
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-30_comp_dir.png
+  artifactKey: Guid(47c17fd963505454a937b57acc0d0eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-30_comp_dir.png using Guid(47c17fd963505454a937b57acc0d0eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0c5473660802824ffb30c5ed1f6be5') in 0.007918 seconds 
+  Import took 0.011501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-31_comp_light.exr
+  artifactKey: Guid(a11d58c5bf98de04d91bcddc44f07d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-31_comp_light.exr using Guid(a11d58c5bf98de04d91bcddc44f07d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a1651cb951d3362055a324a7c642bc') in 0.009570 seconds 
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-33_comp_light.exr
+  artifactKey: Guid(6ce216130718be248b81ead98b23d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-33_comp_light.exr using Guid(6ce216130718be248b81ead98b23d16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed099c2ddfd3337b62db65dafb21589') in 0.009300 seconds 
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-8_comp_light.exr
+  artifactKey: Guid(f36f00773ed6ce344985fb2115ecca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-8_comp_light.exr using Guid(f36f00773ed6ce344985fb2115ecca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86b6559339f02c0a2a212f64c8129b5') in 0.009529 seconds 
+  Import took 0.012847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-10_comp_dir.png
+  artifactKey: Guid(04bb20ece6069a84f8a69e94324b8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-10_comp_dir.png using Guid(04bb20ece6069a84f8a69e94324b8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5574a9ef7e5d7d2faa7d5f18632e1f') in 0.008504 seconds 
+  Import took 0.012044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-7_comp_light.exr
+  artifactKey: Guid(6a90dc726c4f9f44bb19670c31e97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-7_comp_light.exr using Guid(6a90dc726c4f9f44bb19670c31e97179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ad3e74ebcda6c3a71489bc0b84433f') in 0.008169 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-3_comp_light.exr
+  artifactKey: Guid(dbd298190a1748643ade7383e5bff521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-3_comp_light.exr using Guid(dbd298190a1748643ade7383e5bff521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e141fef1d56b2992dd12dc4c8d70f07a') in 0.008716 seconds 
+  Import took 0.012158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-13_comp_light.exr
+  artifactKey: Guid(7d65e594e0336bd4dbdba98ca0bf5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-13_comp_light.exr using Guid(7d65e594e0336bd4dbdba98ca0bf5b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9861d8fdcf8d9aa2fe177b9191c576d3') in 0.009848 seconds 
+  Import took 0.013230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
+  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e62d1a94e769040745b55b541b7a52') in 0.021016 seconds 
+  Import took 0.024322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/DayInTheClouds4k.hdr
+  artifactKey: Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/DayInTheClouds4k.hdr using Guid(90196f2c2d8d2f2448717676e1a09894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec72367e2456b67edfe65f53c1830e9') in 0.059132 seconds 
+  Import took 0.064247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4913b3791ef73c3a74466c8516459a4c') in 0.011225 seconds 
+  Import took 0.014680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-29_comp_dir.png
+  artifactKey: Guid(78387c685f0c4bf43acd729a378f5bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-29_comp_dir.png using Guid(78387c685f0c4bf43acd729a378f5bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c3ebc8c187dea33a41362a99f59720') in 0.009266 seconds 
+  Import took 0.012999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-34_comp_light.exr
+  artifactKey: Guid(aa886f21e8ec02f41b9b86b107fca1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-34_comp_light.exr using Guid(aa886f21e8ec02f41b9b86b107fca1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7857b207fa87efbab0e848eb13c91424') in 0.008945 seconds 
+  Import took 0.012318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CoriolisNight4k.hdr
+  artifactKey: Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CoriolisNight4k.hdr using Guid(354036e57ae357148aed267204ce73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be678a1aebbf8544a5cbb6e5c08d5fd0') in 0.067734 seconds 
+  Import took 0.072456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-20_comp_dir.png
+  artifactKey: Guid(06132595cce221a408265ef6537d30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-20_comp_dir.png using Guid(06132595cce221a408265ef6537d30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c668acbfa8343c6430885387350cc819') in 0.009732 seconds 
+  Import took 0.013506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-35_comp_light.exr
+  artifactKey: Guid(56153871ce4b22e4fb7c012bd350c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-35_comp_light.exr using Guid(56153871ce4b22e4fb7c012bd350c573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876001696380849ca6784c44393e2669') in 0.007980 seconds 
+  Import took 0.011294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-13_comp_dir.png
+  artifactKey: Guid(d298539096b873c4ab2d7e4f0c7e3f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-13_comp_dir.png using Guid(d298539096b873c4ab2d7e4f0c7e3f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2545c2e4723a4a142c74a5d12955fc26') in 0.009005 seconds 
+  Import took 0.012308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr
+  artifactKey: Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudBottom.hdr using Guid(94b877781ad034640abce933599b6f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d80cbb11994ee669873548e02b9d51') in 0.016056 seconds 
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-23_comp_light.exr
+  artifactKey: Guid(afe4cbec4200f814980c6e8c7287eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-23_comp_light.exr using Guid(afe4cbec4200f814980c6e8c7287eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4e04a3d1b2f064ed24a9ba138bcf00') in 0.009090 seconds 
+  Import took 0.012507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-4_comp_dir.png
+  artifactKey: Guid(f6f2a436f7171c14680ed0a84495a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-4_comp_dir.png using Guid(f6f2a436f7171c14680ed0a84495a5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1682e68a5afba5e7ac2cc1d5d796145') in 0.009721 seconds 
+  Import took 0.013461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-4_comp_light.exr
+  artifactKey: Guid(5546b7c43f6d59a45a9680bc8461700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-4_comp_light.exr using Guid(5546b7c43f6d59a45a9680bc8461700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a136a1d747d9965053ef720cb6d2d587') in 0.009106 seconds 
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-28_comp_light.exr
+  artifactKey: Guid(bde8bf59dd868ac4cb3ba112fce03257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-28_comp_light.exr using Guid(bde8bf59dd868ac4cb3ba112fce03257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d35ae4f4504d8c71f487c2228bd095') in 0.008568 seconds 
+  Import took 0.011908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-18_comp_dir.png
+  artifactKey: Guid(3829b1a9391dba0489e412b94eb96616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-18_comp_dir.png using Guid(3829b1a9391dba0489e412b94eb96616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa604428fdc5151e04eb6d9561f8780') in 0.008759 seconds 
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-32_comp_dir.png
+  artifactKey: Guid(6994ddb9f2fb2f54d82305f887367d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-32_comp_dir.png using Guid(6994ddb9f2fb2f54d82305f887367d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f125528d4acffd037d263d6bc658a3d') in 0.008807 seconds 
+  Import took 0.012051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-11_comp_light.exr
+  artifactKey: Guid(3c8de87521bc5ee4b891e75921da96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-11_comp_light.exr using Guid(3c8de87521bc5ee4b891e75921da96d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3563ef45c725c952390b9893df1952e9') in 0.010226 seconds 
+  Import took 0.013641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-1_comp_light.exr
+  artifactKey: Guid(4651ea2321037154e918d1a34a013c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-1_comp_light.exr using Guid(4651ea2321037154e918d1a34a013c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91740fb59f4650abe2a40df7e95e4815') in 0.009682 seconds 
+  Import took 0.013249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-12_comp_light.exr
+  artifactKey: Guid(0bb40cc55c58d1145b9d6b994ac75650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-12_comp_light.exr using Guid(0bb40cc55c58d1145b9d6b994ac75650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4063004a00d3edf8bb9ebf389515255a') in 0.008821 seconds 
+  Import took 0.012166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c55853ef96e647849c9c19d9979c69') in 0.018832 seconds 
+  Import took 0.022200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-9_comp_dir.png
+  artifactKey: Guid(4b36177802164f64a992d7a536c5c90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-9_comp_dir.png using Guid(4b36177802164f64a992d7a536c5c90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07814cfd3540537608bdb46102d9f01e') in 0.009216 seconds 
+  Import took 0.012691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudTop.hdr
+  artifactKey: Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudTop.hdr using Guid(a199da0432efa6a489df8883d1f3bfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1649eb645eef7c2d0aabeb101167252a') in 0.016732 seconds 
+  Import took 0.020421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-25_comp_dir.png
+  artifactKey: Guid(1cb8e0bed11207c458d8dbd7528f615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-25_comp_dir.png using Guid(1cb8e0bed11207c458d8dbd7528f615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03e2a1eb0b654c89b8442a87ba75bfc') in 0.008781 seconds 
+  Import took 0.012084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-2_comp_dir.png
+  artifactKey: Guid(486711b188094264b8566fe16e253394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-2_comp_dir.png using Guid(486711b188094264b8566fe16e253394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115248f4689604d546909eb27a1b3d1f') in 0.008949 seconds 
+  Import took 0.012333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-22_comp_dir.png
+  artifactKey: Guid(7ef2331168845d843aa684d7831be5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-22_comp_dir.png using Guid(7ef2331168845d843aa684d7831be5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3092d6f538062b83629f0302fe1e0e1') in 0.009922 seconds 
+  Import took 0.013254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-24_comp_dir.png
+  artifactKey: Guid(4e8a7018828ac714fa2313c61bb1f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-24_comp_dir.png using Guid(4e8a7018828ac714fa2313c61bb1f418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38748ad400834dcf8fe2b60077a9adf') in 0.009579 seconds 
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-27_comp_light.exr
+  artifactKey: Guid(bc12bbc84d6fe7344bc411b0f47089c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-27_comp_light.exr using Guid(bc12bbc84d6fe7344bc411b0f47089c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c25f38c85d5fb850de7e3f5033715') in 0.010602 seconds 
+  Import took 0.014412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-21_comp_dir.png
+  artifactKey: Guid(a7da9840f0127774584ede660fc0d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-21_comp_dir.png using Guid(a7da9840f0127774584ede660fc0d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f11fbcfede8171377cc6a3c59993fa5') in 0.008273 seconds 
+  Import took 0.012238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_AlbedoTransparency.tif
+  artifactKey: Guid(c2b9035728a989a4284e90da25a6fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_AlbedoTransparency.tif using Guid(c2b9035728a989a4284e90da25a6fc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54455c55040831e3cdd98b22359ddcb') in 0.024171 seconds 
+  Import took 0.027632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_Height.tif
+  artifactKey: Guid(3a30483d772885b44bb8663331f7c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_Height.tif using Guid(3a30483d772885b44bb8663331f7c734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66637543a15fc6f0167066adcbfde88') in 0.025818 seconds 
+  Import took 0.029942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_MetallicSmoothness.tif
+  artifactKey: Guid(7edce9fd7cc3c4a40a83f8cc7b22fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_MetallicSmoothness.tif using Guid(7edce9fd7cc3c4a40a83f8cc7b22fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2b634ddd4903d5b17e1ca8f662a1b7') in 0.027077 seconds 
+  Import took 0.030406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_MetallicSmoothness.tif
+  artifactKey: Guid(eebd842ed580cd44f8ea84f7b407a04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_MetallicSmoothness.tif using Guid(eebd842ed580cd44f8ea84f7b407a04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c067ca352bf71b3f95f3acfc27866ead') in 0.017400 seconds 
+  Import took 0.020796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_Normal.tif
+  artifactKey: Guid(7b0e74f5e8eddca418a28362af40b475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_Normal.tif using Guid(7b0e74f5e8eddca418a28362af40b475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8636031e3e089ba731ca7ba6528aba0') in 0.030762 seconds 
+  Import took 0.034223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_AO.tif
+  artifactKey: Guid(ad0d0187a3247ea4193dc163c775e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_AO.tif using Guid(ad0d0187a3247ea4193dc163c775e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea1f6e202a6985ac9737ad431f63b4b') in 0.028703 seconds 
+  Import took 0.032350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-38_comp_light.exr
+  artifactKey: Guid(a04aa20f46c65b7438e8870579376480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-38_comp_light.exr using Guid(a04aa20f46c65b7438e8870579376480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86235748487727d82253a14dd6c73cf') in 0.008802 seconds 
+  Import took 0.012031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_AO.tif
+  artifactKey: Guid(6c79888fd3a8fd54597022eccfd3af2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_AO.tif using Guid(6c79888fd3a8fd54597022eccfd3af2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7df6523d7a504ead500e9ab5fa7a60c') in 0.017069 seconds 
+  Import took 0.020333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_Height.tif
+  artifactKey: Guid(070724ad6d7e73a41bcb4c0e356d1321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_Height.tif using Guid(070724ad6d7e73a41bcb4c0e356d1321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a7587b3ad5ad56511810b1d691e7d2') in 0.014313 seconds 
+  Import took 0.017705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_AO.tif
+  artifactKey: Guid(ee2962a7871f0ef449f0760ddab88bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_AO.tif using Guid(ee2962a7871f0ef449f0760ddab88bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93694e4685c1bb6812a1ba333983db0e') in 0.017284 seconds 
+  Import took 0.020542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_MetallicSmoothness.tif
+  artifactKey: Guid(00afd5089834de74eba2e12d0b515009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_MetallicSmoothness.tif using Guid(00afd5089834de74eba2e12d0b515009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a92591fe828c0f9c9ccc8d54e0347b') in 0.042236 seconds 
+  Import took 0.046403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_AlbedoTransparency.tif
+  artifactKey: Guid(4dfe2ac98fe44b34ba72113bc4e40166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_AlbedoTransparency.tif using Guid(4dfe2ac98fe44b34ba72113bc4e40166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d619d5be772eb1930ba5ba4c7f2059') in 0.023944 seconds 
+  Import took 0.027914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_Height.tif
+  artifactKey: Guid(d8c3dc8278ba3234eba03dce74325aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_Height.tif using Guid(d8c3dc8278ba3234eba03dce74325aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacffe9fe43224170671b690e295b3a6') in 0.029586 seconds 
+  Import took 0.033418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_AlbedoTransparency.tif
+  artifactKey: Guid(b8524939d9e708949a07ff1dbb7c3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_AlbedoTransparency.tif using Guid(b8524939d9e708949a07ff1dbb7c3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438eac064d847991f19c3d690bcfce6') in 0.029132 seconds 
+  Import took 0.032932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_Height.tif
+  artifactKey: Guid(2cfdcfeab678a9e458cb08e009136b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_Height.tif using Guid(2cfdcfeab678a9e458cb08e009136b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20ee71ec586cf4d3e93a9caaeaa4900') in 0.014353 seconds 
+  Import took 0.017984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_AlbedoTransparency.tif
+  artifactKey: Guid(4c431be79ea8b4b42b4505f351810741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_AlbedoTransparency.tif using Guid(4c431be79ea8b4b42b4505f351810741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9151d233c57cba481e35ecbd33b06e') in 0.017744 seconds 
+  Import took 0.021694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_Normal.tif
+  artifactKey: Guid(9acb4e67da37fd143bbd138369ca39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_Normal.tif using Guid(9acb4e67da37fd143bbd138369ca39ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e1e3106a9dd85e5d63b61c1f69b574') in 0.017594 seconds 
+  Import took 0.021430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_AlbedoTransparency.tif
+  artifactKey: Guid(042fed5fa80076a42904acca59e67d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_AlbedoTransparency.tif using Guid(042fed5fa80076a42904acca59e67d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff410bfa4b24c5a27814bf2c9f64c4c') in 0.012144 seconds 
+  Import took 0.015707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_MetallicSmoothness.tif
+  artifactKey: Guid(0a29e9caddf7dc3448f0660b13422f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_MetallicSmoothness.tif using Guid(0a29e9caddf7dc3448f0660b13422f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c097e6bbe3abb73ba860cacf9f5f9835') in 0.041728 seconds 
+  Import took 0.046143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_Height.tif
+  artifactKey: Guid(a51333b28d1eefd46b35ce0d341844a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_Height.tif using Guid(a51333b28d1eefd46b35ce0d341844a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93347a2c59f83bbebb43d537ebd80ece') in 0.017538 seconds 
+  Import took 0.021234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunLeft.hdr
+  artifactKey: Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunLeft.hdr using Guid(7f0373fb8ec72a142898c7984aada4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4551493610ef8166ec6c4991505d2c22') in 0.011785 seconds 
+  Import took 0.015479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunFront.hdr
+  artifactKey: Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunFront.hdr using Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b43a1e6f78a3678daf5c2c101996ad') in 0.012237 seconds 
+  Import took 0.015809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_AlbedoTransparency.tif
+  artifactKey: Guid(0cfae76a28ead0a478d85e3d567a783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_AlbedoTransparency.tif using Guid(0cfae76a28ead0a478d85e3d567a783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ab9da533641e5930486dc953143563') in 0.017221 seconds 
+  Import took 0.020516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_Normal.tif
+  artifactKey: Guid(e4993f8f622929a4b97ae5103ae51f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_Normal.tif using Guid(e4993f8f622929a4b97ae5103ae51f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090c1a98f4f85c2e93684bbd10546aa') in 0.043114 seconds 
+  Import took 0.047255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunTop.hdr
+  artifactKey: Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunTop.hdr using Guid(47d70ba0d1c1c3e4ab451b6bc37b0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56245d5033560a7f245892015bb344da') in 0.024748 seconds 
+  Import took 0.027928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_Normal.tif
+  artifactKey: Guid(20aafeb71e659d44998c9d7daca5a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_Normal.tif using Guid(20aafeb71e659d44998c9d7daca5a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e178b12d5d0a5c17ea9dc3154b42ea1') in 0.044816 seconds 
+  Import took 0.048898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Scenes/Main/ReflectionProbe-0.exr
+  artifactKey: Guid(53762e6bd22c95246871659b3147dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/ReflectionProbe-0.exr using Guid(53762e6bd22c95246871659b3147dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df481f13fb042075ed6a3383775de575') in 0.015217 seconds 
+  Import took 0.018392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_MetallicSmoothness.tif
+  artifactKey: Guid(fdd09962f01998e46b698985267cf5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_MetallicSmoothness.tif using Guid(fdd09962f01998e46b698985267cf5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043515571f5414131b84ed04a5566b48') in 0.040477 seconds 
+  Import took 0.044898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_AlbedoTransparency.png
+  artifactKey: Guid(026a26a427d8f844fbde145b3176eee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_AlbedoTransparency.png using Guid(026a26a427d8f844fbde145b3176eee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efe087cc3b04a98576550e0869fe005') in 0.014366 seconds 
+  Import took 0.018137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_AlbedoTransparency.tif
+  artifactKey: Guid(99066394cbc56dc46925e66c89460071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_AlbedoTransparency.tif using Guid(99066394cbc56dc46925e66c89460071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6c556fac898d6aa916a48d4cd65b35') in 0.027800 seconds 
+  Import took 0.031844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2082eef603cd4f97c257428fe7bcc901') in 0.011512 seconds 
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/UnearthlyRed4k.hdr
+  artifactKey: Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/UnearthlyRed4k.hdr using Guid(a3de28b69b48944438c87668bd722ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d44fc088a48a9cc287b30e0b7d37e') in 0.071208 seconds 
+  Import took 0.075545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/test3.png
+  artifactKey: Guid(ec5dda103f0506a48bb1efe6e318e20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/test3.png using Guid(ec5dda103f0506a48bb1efe6e318e20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a94a7ea6789438e948e39fa14c7439c') in 0.036681 seconds 
+  Import took 0.040648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr
+  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5ba8cd80a880b167afedab1d058c94') in 0.057114 seconds 
+  Import took 0.062181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunRight.hdr
+  artifactKey: Guid(f5760fc943c5eb643a2291630888f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunRight.hdr using Guid(f5760fc943c5eb643a2291630888f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d75a1f0d38211eb11168530697e0a11') in 0.010913 seconds 
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_Normal.png
+  artifactKey: Guid(c7d69cb527c984949b4d90f854332ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_Normal.png using Guid(c7d69cb527c984949b4d90f854332ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1338dea9a06c83b2c24e221498c9e57c') in 0.021750 seconds 
+  Import took 0.024975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/test1.png
+  artifactKey: Guid(85679abecdc2dfb40bc42b8271d90625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/test1.png using Guid(85679abecdc2dfb40bc42b8271d90625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2415fbb61f00b1f0826d1d7daedf9cf') in 0.011659 seconds 
+  Import took 0.014980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_Height.tif
+  artifactKey: Guid(d8f09f7049d4d2046925c28de9de24e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_Height.tif using Guid(d8f09f7049d4d2046925c28de9de24e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eed92332a67c584d490226f85c926d') in 0.027245 seconds 
+  Import took 0.030978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunBottom.hdr
+  artifactKey: Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunBottom.hdr using Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ade8ffde5c59f83275ffa39f2ea3e56') in 0.011023 seconds 
+  Import took 0.014226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_AO.tif
+  artifactKey: Guid(87484e4bbe418b94185e2a9a8e1f8e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_AO.tif using Guid(87484e4bbe418b94185e2a9a8e1f8e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f73918a37bd501905489510971dd3') in 0.027252 seconds 
+  Import took 0.031537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_AlbedoTransparency.tif
+  artifactKey: Guid(4b01c2eb4bbdb654a80166a8ecbb5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_AlbedoTransparency.tif using Guid(4b01c2eb4bbdb654a80166a8ecbb5ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f6903aa9f6df3aae96850db00f495') in 0.029338 seconds 
+  Import took 0.033278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/HandTorch/OldHandTorch/Icon/Torch.PNG
+  artifactKey: Guid(f7b79d41f9021494ead8e68a08c09371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/OldHandTorch/Icon/Torch.PNG using Guid(f7b79d41f9021494ead8e68a08c09371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ce2e01d37b79fc19c49cd8521c41a9') in 0.013619 seconds 
+  Import took 0.016864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_AO.tif
+  artifactKey: Guid(0de81c468b396c246910fa009e6402e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_AO.tif using Guid(0de81c468b396c246910fa009e6402e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068529039b690ec8f77a95c1a3f26f1') in 0.027892 seconds 
+  Import took 0.032162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_AlbedoTransparency.tif
+  artifactKey: Guid(ce21ccbe859f63f4b93c4ba23cf63198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_AlbedoTransparency.tif using Guid(ce21ccbe859f63f4b93c4ba23cf63198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990783f4833ec182aa2c92d699ef15dc') in 0.028638 seconds 
+  Import took 0.032866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_Normal.tif
+  artifactKey: Guid(679c30b379d11724b8ad07ea2e1bdcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_Normal.tif using Guid(679c30b379d11724b8ad07ea2e1bdcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0994e090f290750633b3cbd55c83690c') in 0.042741 seconds 
+  Import took 0.046815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprites/test2.png
+  artifactKey: Guid(118d1178187e6644fbe1ddd261bc9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/test2.png using Guid(118d1178187e6644fbe1ddd261bc9988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639754b8db8143418bf2ee24b48f634b') in 0.011447 seconds 
+  Import took 0.014636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_AO.tif
+  artifactKey: Guid(4e575a7e052c7d54896342b2069d5b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_AO.tif using Guid(4e575a7e052c7d54896342b2069d5b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328301025ccb47950491585b2382e50f') in 0.027354 seconds 
+  Import took 0.031271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_MetallicSmoothness.tif
+  artifactKey: Guid(93502aa08dd6611489296e09463b4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_MetallicSmoothness.tif using Guid(93502aa08dd6611489296e09463b4e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b5f73241e552596c202fcfad993d96') in 0.041085 seconds 
+  Import took 0.044979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_MetallicSmoothness.tif
+  artifactKey: Guid(fe3376b5dc82a7e4c8ad6a366a22b477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_MetallicSmoothness.tif using Guid(fe3376b5dc82a7e4c8ad6a366a22b477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cf3613ba0a2b3d51ae5eeaff2bec17') in 0.018571 seconds 
+  Import took 0.021753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSun4k.hdr
+  artifactKey: Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSun4k.hdr using Guid(8967f190ed29c46418093a47d66daee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaa9d46ea120d93e5e7756551dee3fe') in 0.065919 seconds 
+  Import took 0.070578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_Height.tif
+  artifactKey: Guid(1ff2c08324e09de42b9207322560a49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_Height.tif using Guid(1ff2c08324e09de42b9207322560a49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a941d6350ec600d09620e280e49754') in 0.030084 seconds 
+  Import took 0.033922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_Normal.tif
+  artifactKey: Guid(d599687bd594e2c4d8da1c24bf5373f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_Stone/MDP_Tex_PreB_4K_Stone_Normal.tif using Guid(d599687bd594e2c4d8da1c24bf5373f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eb725d09352a6a47e74297ebe72d27') in 0.045387 seconds 
+  Import took 0.049582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_Normal.tif
+  artifactKey: Guid(a72d1ecac75987f4696282f02db1d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_Normal.tif using Guid(a72d1ecac75987f4696282f02db1d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11df3cbbd985c3bab8069ccac139b595') in 0.039255 seconds 
+  Import took 0.043659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_Normal.tif
+  artifactKey: Guid(af92b0754f4c0624995ba8f278f9c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_Normal.tif using Guid(af92b0754f4c0624995ba8f278f9c0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5250acd383a6d345090e1f659ef9e9d0') in 0.017879 seconds 
+  Import took 0.021173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_AlbedoTransparency.tif
+  artifactKey: Guid(1676277c358ba1941bbca5f422d7858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_LargeStoneBricks/MDP_Tex_PreB_4K_LargeStoneBricks_AlbedoTransparency.tif using Guid(1676277c358ba1941bbca5f422d7858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0807350e13d32d623cff6512403d7da5') in 0.013462 seconds 
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/SunlessCirruscover4k.hdr
+  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246b02b0614327375702271542bfccc2') in 0.059504 seconds 
+  Import took 0.064191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_Normal.tif
+  artifactKey: Guid(6054347547470f345b9f53d74471fa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_Normal.tif using Guid(6054347547470f345b9f53d74471fa90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb0e20394da1665078fe76f24593e3a') in 0.042412 seconds 
+  Import took 0.046520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_AO.tif
+  artifactKey: Guid(f9b2228f598d2a242b27b0d719f87915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_AO.tif using Guid(f9b2228f598d2a242b27b0d719f87915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0970b9a53405712b3a3a59301eb173f') in 0.016201 seconds 
+  Import took 0.019418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_Height.tif
+  artifactKey: Guid(8e0e9ddbd7322594bb5132788eae7790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_Height.tif using Guid(8e0e9ddbd7322594bb5132788eae7790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab2e7755b95695ce2167bf7e2b87d9') in 0.016997 seconds 
+  Import took 0.020322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_MetallicSmoothness.tif
+  artifactKey: Guid(d5364e87a0dabe8428d0b86bd86eb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_MetallicSmoothness.tif using Guid(d5364e87a0dabe8428d0b86bd86eb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20073a10036a016936e5ffbf3c43a9f4') in 0.040568 seconds 
+  Import took 0.044782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_Height.tif
+  artifactKey: Guid(6b25f500a0aa2d1488237e695832b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_Height.tif using Guid(6b25f500a0aa2d1488237e695832b863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262a9cb425e6371dc14852f37556c9a8') in 0.016361 seconds 
+  Import took 0.019553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_MetallicSmoothness.tif
+  artifactKey: Guid(7b5f2e5c09f71364c9387e729522500a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_MetallicSmoothness.tif using Guid(7b5f2e5c09f71364c9387e729522500a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c933c54f08ebd2702ecfa1f09e243166') in 0.042413 seconds 
+  Import took 0.046855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_Height.tif
+  artifactKey: Guid(e5eddd596d443464f97ba3576aba12de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricksWithMoss/MDP_Tex_PreB_4K_StonebricksWithMoss_Height.tif using Guid(e5eddd596d443464f97ba3576aba12de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e41c1fcc410b0d22242ccf14040a90') in 0.027821 seconds 
+  Import took 0.031494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CloudedSunGlow4k.hdr
+  artifactKey: Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CloudedSunGlow4k.hdr using Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f70cf7c50be8c2c4269b3d25d61c519') in 0.091144 seconds 
+  Import took 0.096112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.903571 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(fdc103aae9ca0aa45aa9f6808648c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(fdc103aae9ca0aa45aa9f6808648c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401e3b86bf4ce0b912c42a6e9fa3acef') in 0.018888 seconds 
+  Import took 0.023680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.800064 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-38_comp_dir.png
+  artifactKey: Guid(a381929a4489f1542a81352882543e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-38_comp_dir.png using Guid(a381929a4489f1542a81352882543e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176c4e2957d2ebcd6833f79bed6f0e8f') in 0.008804 seconds 
+  Import took 0.013381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_01_n.png
+  artifactKey: Guid(164acba68d7644f628411115485c1268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_01_n.png using Guid(164acba68d7644f628411115485c1268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d387a310710fa993eaab5af87320e72') in 0.009817 seconds 
+  Import took 0.013611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_04_n.png
+  artifactKey: Guid(434da6fd3c054491d98beed6cfa79157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_04_n.png using Guid(434da6fd3c054491d98beed6cfa79157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a73e8dfbd10b9579cea0c05b012962') in 0.009463 seconds 
+  Import took 0.013022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Medium_WoodenBarrel_Mediuml_MetallicSmoothness.png
+  artifactKey: Guid(2e7b29e7592af1b4d8be29b7124459f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Medium_WoodenBarrel_Mediuml_MetallicSmoothness.png using Guid(2e7b29e7592af1b4d8be29b7124459f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5731c60d5ee664583758e0840e250eb') in 0.021746 seconds 
+  Import took 0.025192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_07_d.png
+  artifactKey: Guid(0a45c60f961954cf49cbc3cde58c6d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_07_d.png using Guid(0a45c60f961954cf49cbc3cde58c6d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4f6c06efe1c0f51420ed3d23db2588') in 0.008992 seconds 
+  Import took 0.013226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_07_d.png
+  artifactKey: Guid(c489e5685a081428e9e4c1ffaf365764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_07_d.png using Guid(c489e5685a081428e9e4c1ffaf365764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97acd67e4f1eec166bda822accd57be1') in 0.009278 seconds 
+  Import took 0.012943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_07_n.png
+  artifactKey: Guid(19ea68a259b5a4815ad8cfe8d1bce1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_07_n.png using Guid(19ea68a259b5a4815ad8cfe8d1bce1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f9797e51c2e65174041dd2751924e4') in 0.008733 seconds 
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_07_n.png
+  artifactKey: Guid(541174477ab8e44eab339686af157141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_07_n.png using Guid(541174477ab8e44eab339686af157141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b914faec26c97f33fe342f4475980626') in 0.009386 seconds 
+  Import took 0.012545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Mediuml_WoodenBarrel_Medium_Normal.png
+  artifactKey: Guid(3e62fe569484dd74daaa5cdd0a52279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Mediuml_WoodenBarrel_Medium_Normal.png using Guid(3e62fe569484dd74daaa5cdd0a52279f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78456ce036baca658257b5bcb304fd52') in 0.020838 seconds 
+  Import took 0.024016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_04_d.png
+  artifactKey: Guid(8a777844bee07461fa110b694ec151aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow1_04_d.png using Guid(8a777844bee07461fa110b694ec151aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b52f70cd5c48184ec13480c972bbe7') in 0.010365 seconds 
+  Import took 0.013918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_AO.tif
+  artifactKey: Guid(171f122d3daff2f45b10aacd7f91e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_AO.tif using Guid(171f122d3daff2f45b10aacd7f91e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b06fc98ebffbd34ee61e1b776b2c2e') in 0.012613 seconds 
+  Import took 0.016043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_AlbedoTransparency.tif
+  artifactKey: Guid(4d71c3967678c5c4990d6fa19ed6f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneWithMoss/MDP_Tex_PreB_4K_StoneWithMoss_AlbedoTransparency.tif using Guid(4d71c3967678c5c4990d6fa19ed6f265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdb14a1be3bcf87afa91231b58bcbdb') in 0.028244 seconds 
+  Import took 0.032096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/PlanetaryEarth4k.hdr
+  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b31cdb5a4ab417857a2be2a7d0efc4b') in 0.082116 seconds 
+  Import took 0.086728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
+  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140abe85a6b4ae566cc3d80a0cb69d0e') in 0.075473 seconds 
+  Import took 0.080309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_MetallicSmoothness.png
+  artifactKey: Guid(1ab6c5fa265def44e9b5e06c445b04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/OldHandTorch/Textures/OldHandTorch_OldHandTorch_MetallicSmoothness.png using Guid(1ab6c5fa265def44e9b5e06c445b04d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45570226ceb3282d617d0ae1cf64b3ac') in 0.020883 seconds 
+  Import took 0.024395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_AO.tif
+  artifactKey: Guid(2719bb5ff03385d40873ad4e0bb7c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTiles/MDP_Tex_PreB_4K_SquareStoneTiles_AO.tif using Guid(2719bb5ff03385d40873ad4e0bb7c12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba2d5c26d2460ae19d07ec81bc619d3') in 0.024817 seconds 
+  Import took 0.028435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_01_d.png
+  artifactKey: Guid(7b6aaefc6e3554ebc89e3c8a9db4067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples/TerrainTex_Snow2_01_d.png using Guid(7b6aaefc6e3554ebc89e3c8a9db4067a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a1044033fee970625547f55fdfae8') in 0.009812 seconds 
+  Import took 0.013237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_AO.tif
+  artifactKey: Guid(52217803f6cbdf34b880f698f06ab7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabsWithMoss/MDP_Tex_PreB_4K_StoneSlabsWithMoss_AO.tif using Guid(52217803f6cbdf34b880f698f06ab7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307ef5a5de17c820ef7babb8c4b0444f') in 0.028109 seconds 
+  Import took 0.032219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_AO.tif
+  artifactKey: Guid(06f7b8aab0883914e9be814c1b90c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_AO.tif using Guid(06f7b8aab0883914e9be814c1b90c46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f6798137e816841df88f611285fd90') in 0.016545 seconds 
+  Import took 0.019887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_MetallicSmoothness.tif
+  artifactKey: Guid(9c49ad955c869414f860ad8ca9b6b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricks/MDP_Tex_PreB_4K_FlatStoneBricks_MetallicSmoothness.tif using Guid(9c49ad955c869414f860ad8ca9b6b455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e077a54df9d2f9536f1213bbecf8f19a') in 0.017549 seconds 
+  Import took 0.020746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_Height.tif
+  artifactKey: Guid(6377aefb1520605439aae65c3d7acda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneBricks/MDP_Tex_PreB_4K_Stonebricks_Height.tif using Guid(6377aefb1520605439aae65c3d7acda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cceef4d360dbe4a54227e02b4881987') in 0.027907 seconds 
+  Import took 0.031841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/MegaSunBack.hdr
+  artifactKey: Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/MegaSunBack.hdr using Guid(4e52cbaf92b83a94cb86bed75ed34652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea52e226f32586fa15d0adb22fd1f26') in 0.010743 seconds 
+  Import took 0.014049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_Normal.tif
+  artifactKey: Guid(48e5202cd78c3c244aa456f37b6dce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_StoneSlabs/MDP_Tex_PreB_4K_StoneSlabs_Normal.tif using Guid(48e5202cd78c3c244aa456f37b6dce05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8143eeeaa9f624009b63705799cbd4bc') in 0.020404 seconds 
+  Import took 0.023774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_Normal.tif
+  artifactKey: Guid(1f0f9fe862cf47241a2d7dd2c867a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_Preb_4K_SquareStoneTilesWithMoss/MDP_Tex_PreB_4K_SquareStoneTilesWithMoss_Normal.tif using Guid(1f0f9fe862cf47241a2d7dd2c867a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13109c2d2beafd70506fd6b742b095c') in 0.020518 seconds 
+  Import took 0.023780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_MetallicSmoothness.tif
+  artifactKey: Guid(4d756cf9f856ace41b0af437179deb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/MDP_Tex_PreB_4K/MDP_Tex_PreB_4K_FlatStoneBricksWithMoss/MDP_Tex_PreB_4K_FlatStoneBricks_MetallicSmoothness.tif using Guid(4d756cf9f856ace41b0af437179deb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c701db828adab48952d1ae87441b352') in 0.013123 seconds 
+  Import took 0.016470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/StoneDetails_normal.tif
+  artifactKey: Guid(8ba8e9c0c61437b43a671e1a61b154bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Textures/MDP_Tex_Prebaked_Textures/StoneDetails_normal.tif using Guid(8ba8e9c0c61437b43a671e1a61b154bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632e53a2c864c73aa8ce14749aa332da') in 0.008707 seconds 
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Medium_WoodenBarrel_Medium_AlbedoTransparency.png
+  artifactKey: Guid(d64caa6dc9fff8b4a9231a0a8a7e3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandTorch/Scenes/SceneProps/Barrel/WoodenBarrel_Medium/Textures/WoodenBarrel_Medium_WoodenBarrel_Medium_AlbedoTransparency.png using Guid(d64caa6dc9fff8b4a9231a0a8a7e3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e922efdd0689436b06af8b21c043f0b') in 0.016222 seconds 
+  Import took 0.019691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(61df327534a3da24bb546758d44b1624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(61df327534a3da24bb546758d44b1624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd57939453326af16c16ea15ce45446') in 0.036688 seconds 
+  Import took 0.042515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.649398 seconds.
+  path: Assets/Terrain Textures Snow Free Samples
+  artifactKey: Guid(094c4e9ac757a4747ac80d262f365d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Textures Snow Free Samples using Guid(094c4e9ac757a4747ac80d262f365d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef1facea7faf58a61d960f7c02248b3') in 0.004043 seconds 
+  Import took 0.007414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.241796 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/Cloudymorning4k.hdr
+  artifactKey: Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/Cloudymorning4k.hdr using Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaabed3bab2325ed64347ad5e06ddb89') in 0.060488 seconds 
+  Import took 0.065736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-35_comp_dir.png
+  artifactKey: Guid(bafd066a5d20ef84babe6a11776b9cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-35_comp_dir.png using Guid(bafd066a5d20ef84babe6a11776b9cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500235a9966d1a033cd6ce97c80205f') in 0.008213 seconds 
+  Import took 0.011537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudFront.hdr
+  artifactKey: Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/CosmicCoolCloudFront.hdr using Guid(d822c5eff7d42f04691027bc8c2b0716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c844bf61c6b32a2327041d74330b7c') in 0.016820 seconds 
+  Import took 0.020194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-28_comp_dir.png
+  artifactKey: Guid(16e5e8bed66d3df41b10030335568deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-28_comp_dir.png using Guid(16e5e8bed66d3df41b10030335568deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7becd15e30c4edc149c51cbeaa98d4c2') in 0.008537 seconds 
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-25_comp_light.exr
+  artifactKey: Guid(4a1d2e4db048de64cb3f2150bce3a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-25_comp_light.exr using Guid(4a1d2e4db048de64cb3f2150bce3a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e548b46e977b2c909cb88e34127858') in 0.009396 seconds 
+  Import took 0.012723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-24_comp_light.exr
+  artifactKey: Guid(465a80f603d98bc48918b34cc25de312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-24_comp_light.exr using Guid(465a80f603d98bc48918b34cc25de312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666f422051861341f98b6ec8706ced2d') in 0.009751 seconds 
+  Import took 0.013457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-19_comp_dir.png
+  artifactKey: Guid(f6c0857c330795a4aa3ca19b2aa440f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-19_comp_dir.png using Guid(f6c0857c330795a4aa3ca19b2aa440f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc63956ef762adeac57362ce25df4c79') in 0.008774 seconds 
+  Import took 0.012307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c462c4e31e32100c0b1f5349cf968e') in 0.058309 seconds 
+  Import took 0.063292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-26_comp_light.exr
+  artifactKey: Guid(f8297b8fa89f22944984c6d58d63593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-26_comp_light.exr using Guid(f8297b8fa89f22944984c6d58d63593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d24f5935a6951d7a73bb2c338a400b') in 0.008557 seconds 
+  Import took 0.012900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-14_comp_light.exr
+  artifactKey: Guid(f966b427fc174a74d9a15eb84d8d570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-14_comp_light.exr using Guid(f966b427fc174a74d9a15eb84d8d570d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4eff51b6b7071217845a0ae10d6b467') in 0.009470 seconds 
+  Import took 0.012761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-31_comp_dir.png
+  artifactKey: Guid(deaf48d2243653d46b0a5c1b665ebfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-31_comp_dir.png using Guid(deaf48d2243653d46b0a5c1b665ebfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e383891a55329c206e7ee183b66653') in 0.008915 seconds 
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-1_comp_dir.png
+  artifactKey: Guid(10c2f4034629fcd49b25390058241ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-1_comp_dir.png using Guid(10c2f4034629fcd49b25390058241ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37e2cb831c1f3913144b663404bfa76') in 0.008434 seconds 
+  Import took 0.011851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-33_comp_dir.png
+  artifactKey: Guid(d89558251d19b6a46957a15b01c5640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-33_comp_dir.png using Guid(d89558251d19b6a46957a15b01c5640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af634383d502c597a15c619d22d980b') in 0.009206 seconds 
+  Import took 0.012442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Scenes/TempleLevel/Lightmap-23_comp_dir.png
+  artifactKey: Guid(7608b12debc217247b4d4819672bc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel/Lightmap-23_comp_dir.png using Guid(7608b12debc217247b4d4819672bc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa8236ed3a7e4257f1644fd5519e474') in 0.009548 seconds 
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.284876 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(fdc103aae9ca0aa45aa9f6808648c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(fdc103aae9ca0aa45aa9f6808648c79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f80100052da4bf0d9dafe9e2bc342') in 0.010045 seconds 
+  Import took 0.013535 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.7 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3613.
+Total: 2.235000 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.904800 ms  DeleteObjects: 0.083300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Domain Reload Profiling:
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3615.
+Total: 2.264200 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.066300 ms MarkObjects: 1.931500 ms  DeleteObjects: 0.089900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3617.
+Total: 2.270900 ms (FindLiveObjects: 0.178500 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.943400 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
