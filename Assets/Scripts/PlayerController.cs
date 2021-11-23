@@ -38,6 +38,11 @@ public class PlayerController : MonoBehaviour
             }
 
         }
+        else
+        {
+            xInput = 0.0f;
+            yInput = 0.0f;
+        }
 
 
     }

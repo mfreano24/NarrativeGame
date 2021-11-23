@@ -6,7 +6,7 @@ public class Interactive : MonoBehaviour
 {
     public string promptText;
 
-    [TextArea(3,6)]
+    [TextArea(3,10)]
     public string[] dialogue;
     public Sprite[] icons;
 
