@@ -17,9 +17,18 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public bool controlsEnabled = true;
 
+    public LayerMask lm;
+    public Transform groundPoint;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(groundPoint.position, 0.25f);
     }
 
     private void Update()
@@ -53,8 +62,26 @@ public class PlayerController : MonoBehaviour
         forward.y = 0.0f;
         right = Camera.main.transform.right;
         Vector3 moveDirection = yInput * forward + xInput * right;
+        Vector3 vel = playerSpeed * moveDirection;
+        vel.y = rb.velocity.y;
 
-        rb.velocity = playerSpeed * moveDirection;
+        if (isGrounded())
+        {
+            vel.y = -2.0f; //stop this from accelerating when grounded
+        }
+
+        rb.velocity = vel;
+    }
+
+    bool isGrounded()
+    {
+        if(Physics.Raycast(groundPoint.position, Vector3.down, 0.1f, lm))
+        {
+            Debug.Log("GROUNDED: TRUE");
+            return true;
+        }
+        Debug.Log("GROUNDED: FALSE");
+        return false;
     }
 
     public void SetInteractive(Interactive interactive)

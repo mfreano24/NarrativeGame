@@ -7,8 +7,7 @@ public class JerryNotebook : Interactive
     public override void Interact()
     {
         base.Interact();
-
-        Debug.Log("this is the test interaction.");
+        GameManager.Instance.IncrementTemplePuzzles(); //this is one, just gotta hope the player knows.
     }
 
     private void OnTriggerEnter(Collider other)
