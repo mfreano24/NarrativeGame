@@ -721,3 +721,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.434882 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/BedsV1mat.mat
+  artifactKey: Guid(06fe5c4964693714795957435bda8267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/BedsV1mat.mat using Guid(06fe5c4964693714795957435bda8267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b82aafded280d4d91ef8a77a5e44745') in 0.592062 seconds 
+  Import took 0.599994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Cabinets00matV1.mat
+  artifactKey: Guid(805d1656036ee8e4e83880635bd3035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Cabinets00matV1.mat using Guid(805d1656036ee8e4e83880635bd3035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ec960e2828df6bafcccfbcbbef8612') in 0.017398 seconds 
+  Import took 0.024127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/planeDemo.mat
+  artifactKey: Guid(16d81f060ddc90142a9a6755649fc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/planeDemo.mat using Guid(16d81f060ddc90142a9a6755649fc560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dca2c927179fc656144f279e7dbeee') in 0.016948 seconds 
+  Import took 0.022580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Chair02matV2.mat
+  artifactKey: Guid(be76f48e69e33d347978581a3c96bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Chair02matV2.mat using Guid(be76f48e69e33d347978581a3c96bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b77451ff3effe7c713cf4c49b735ab') in 0.276991 seconds 
+  Import took 0.281749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Table01matV2.mat
+  artifactKey: Guid(02a6896b282a6114b86d90050978da0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Table01matV2.mat using Guid(02a6896b282a6114b86d90050978da0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219437a4be33b5e39f081a616949110') in 0.014703 seconds 
+  Import took 0.019757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Table02mat.mat
+  artifactKey: Guid(59de4d7098ce3884abe5e25a8e7134ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Table02mat.mat using Guid(59de4d7098ce3884abe5e25a8e7134ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a33c046a0d1d68a7f0f803a43775efe') in 0.017813 seconds 
+  Import took 0.024133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Stool01matV1.mat
+  artifactKey: Guid(470bdeb8077382c4eb462c87eb051ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Stool01matV1.mat using Guid(470bdeb8077382c4eb462c87eb051ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5297bf5a3b027039bd2ab86187eed0cc') in 0.016697 seconds 
+  Import took 0.022842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015893 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/BedSingle01empty.fbx
+  artifactKey: Guid(8c356a56546b1864e884cbe6839cd84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/BedSingle01empty.fbx using Guid(8c356a56546b1864e884cbe6839cd84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9562db9e6d6456796610892eb37cdedc') in 0.325886 seconds 
+  Import took 0.331039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Stool01.fbx
+  artifactKey: Guid(bd6d0bff27489a343bfece44a82b3a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/Stool01.fbx using Guid(bd6d0bff27489a343bfece44a82b3a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160251baaa6a5017fc045aaa9279afd9') in 0.026066 seconds 
+  Import took 0.030829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Table02.fbx
+  artifactKey: Guid(1fbd49c934b2b684e825d4d0ac19f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/Table02.fbx using Guid(1fbd49c934b2b684e825d4d0ac19f063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41078ac97d15c76ff9a6601f12743a0') in 0.029113 seconds 
+  Import took 0.033773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Chair02.fbx
+  artifactKey: Guid(5ef2c742bc94a0f4c9160d50e7e027a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/Chair02.fbx using Guid(5ef2c742bc94a0f4c9160d50e7e027a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123b66abf9fbf49b43315ae0d3f44df') in 0.029483 seconds 
+  Import took 0.033849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Table01.fbx
+  artifactKey: Guid(6983acf89a255064f8acf959f9141b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/Table01.fbx using Guid(6983acf89a255064f8acf959f9141b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d63a3151dad4691bffb10127fa4dfd') in 0.023863 seconds 
+  Import took 0.030006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/RawWoodenFurnitureFree/Models/Cabinet04.fbx
+  artifactKey: Guid(3ce3edc735be30041b39eceea0ab00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Models/Cabinet04.fbx using Guid(3ce3edc735be30041b39eceea0ab00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e23fe2f54981790d57a91ba0e9a53') in 0.030400 seconds 
+  Import took 0.036966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.349585 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab
+  artifactKey: Guid(fbc4838ce499bb8498f026d830f7b187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/BedSingle01emptyV1.prefab using Guid(fbc4838ce499bb8498f026d830f7b187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592421c34e163a16d09df93987cf4903') in 0.016631 seconds 
+  Import took 0.024298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab
+  artifactKey: Guid(2ece004b150d5414f87f7267c86bcc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Stool01v1.prefab using Guid(2ece004b150d5414f87f7267c86bcc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4644648f698b82bf934954b70d06d0') in 0.020628 seconds 
+  Import took 0.029786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab
+  artifactKey: Guid(da373a9bbe4c36e439bab943cc140c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Cabinet04.prefab using Guid(da373a9bbe4c36e439bab943cc140c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c378ef6027bdad6024c391d54977bb9') in 0.011715 seconds 
+  Import took 0.020793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab
+  artifactKey: Guid(0936644fcf2cf6e4d8442a39eedb7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table01v2.prefab using Guid(0936644fcf2cf6e4d8442a39eedb7d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8094f1ce0ab146cca17abfa6ea88b13c') in 0.018402 seconds 
+  Import took 0.029313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab
+  artifactKey: Guid(38ae9b6435f93f5489be6c7c5aa503aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Table02.prefab using Guid(38ae9b6435f93f5489be6c7c5aa503aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c12f54cc02f481cc759b4f75c7b73ea') in 0.012312 seconds 
+  Import took 0.022333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab
+  artifactKey: Guid(574825684c718c342823e8e3f52edcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Prefabs/Chair02v2.prefab using Guid(574825684c718c342823e8e3f52edcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c47251077882ed5a19d396bcd76da') in 0.018845 seconds 
+  Import took 0.029437 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
