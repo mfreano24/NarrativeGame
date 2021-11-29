@@ -1512,3 +1512,92 @@ Received Import Request.
 Start importing Assets/Scripts/Interactions/RainbowBookcase.cs using Guid(d26eda1695b460d44af6c8d71472ddae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f655176fc0691dd54dbea0c46e4099') in 0.045526 seconds 
   Import took 0.050318 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.9 MB.
+System memory in use after: 141.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3617.
+Total: 2.220000 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.079900 ms MarkObjects: 1.924700 ms  DeleteObjects: 0.011600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2049.498992 seconds.
+  path: Assets/Scenes/MountainLevel.unity
+  artifactKey: Guid(95f738a2f6c8326428277008324fcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MountainLevel.unity using Guid(95f738a2f6c8326428277008324fcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43174e6fab47db61e419d45bc75e9363') in 0.052771 seconds 
+  Import took 0.057481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 399.816520 seconds.
+  path: Assets/Scenes/TempleLevel.unity
+  artifactKey: Guid(33f18da6d5a1f674081e087374ccdb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TempleLevel.unity using Guid(33f18da6d5a1f674081e087374ccdb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e282bd582ccd5f2d6ab49711cef153a2') in 0.002050 seconds 
+  Import took 0.043854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.838555 seconds.
+  path: Assets/Scripts/Interactions/RainbowBookcases/BLUE_CASE.mat
+  artifactKey: Guid(515f815401f1ad0449be647c0f54a2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactions/RainbowBookcases/BLUE_CASE.mat using Guid(515f815401f1ad0449be647c0f54a2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58018a4a11c77d941fc7a7f22ef366d') in 0.169102 seconds 
+  Import took 0.174188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.052897 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_Stone.mat
+  artifactKey: Guid(8628bbb96b7452f408391633ad99fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_Stone.mat using Guid(8628bbb96b7452f408391633ad99fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ecc6d1c3f802e5d9ead3100cd3188c') in 0.076183 seconds 
+  Import took 0.119860 seconds .
+
