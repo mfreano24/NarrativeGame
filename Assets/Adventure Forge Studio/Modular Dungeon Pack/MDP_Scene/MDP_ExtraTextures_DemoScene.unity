@@ -255,7 +255,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!108 &16
 Light:
@@ -385,7 +385,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 71501fc731f95504caafab29bd9260be, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: e37e952f925c03e459eacb51d5d64917, type: 2}
 --- !u!1 &80292848
 GameObject:
   m_ObjectHideFlags: 0
