@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager m_instance;
-
-    public Sprite[] spriteChoices;
 
     public static GameManager Instance
     {
@@ -17,16 +14,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    List<string> roygbiv;
-    List<string> currList = new List<string>();
-    int currIndex;
-
-    public List<RainbowBookcase> Bookcases;
-
     private void Awake()
     {
-        if (m_instance == null)
+        if(m_instance == null)
         {
             m_instance = this;
         }
@@ -34,9 +24,6 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this);
         }
-
-        roygbiv = new List<string>{ "red", "orange", "yellow", "green", "blue", "indigo", "violet" };
-        currIndex = roygbiv.Count - 1;
     }
 
     public PlayerController player;
@@ -51,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         player.controlsEnabled = true;
     }
+<<<<<<< HEAD
 
 
     #region ProgressionFlags
@@ -146,4 +134,6 @@ public class GameManager : MonoBehaviour
         IncrementTemplePuzzles(); //this should be the last one.
     }
     #endregion
+=======
+>>>>>>> parent of 9e5f10b (finished base temple without decor)
 }
