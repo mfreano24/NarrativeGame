@@ -70,3 +70,6 @@ Cmd: compileSnippet
 Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
 >>>>>>> parent of 9e5f10b (finished base temple without decor)
 
+Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
+
+Quitting shader compiler process

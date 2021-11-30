@@ -2333,3 +2333,116 @@ Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3680.
 Total: 2.237800 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.068200 ms MarkObjects: 1.979300 ms  DeleteObjects: 0.012600 ms)
 >>>>>>> parent of 9e5f10b (finished base temple without decor)
 
+========================================================================
+Received Import Request.
+  Time since last request: 276.879012 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_FlatStoneBricks.mat
+  artifactKey: Guid(458f9785b61e3e44497e4efe82cc6748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_FlatStoneBricks.mat using Guid(458f9785b61e3e44497e4efe82cc6748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9807d0e6d4484694ef434027f795ed') in 0.029845 seconds 
+  Import took 0.035211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_LargeStoneBricksTiled.mat
+  artifactKey: Guid(3b44bde9fa6caaa439b394bb46b1677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_LargeStoneBricksTiled.mat using Guid(3b44bde9fa6caaa439b394bb46b1677d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c00adfe5757de539a6d61582450181e') in 0.020337 seconds 
+  Import took 0.024182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_StoneBricksWithMoss.mat
+  artifactKey: Guid(85ad0ccfa668175419dad18edb1069da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_StoneBricksWithMoss.mat using Guid(85ad0ccfa668175419dad18edb1069da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e3cf2875985a8c40a1437d6fe4e0d') in 0.064302 seconds 
+  Import took 0.071306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneSlabsWithMoss.mat
+  artifactKey: Guid(24b59fe7c355b7d42adf868037e8cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneSlabsWithMoss.mat using Guid(24b59fe7c355b7d42adf868037e8cc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd2e9f215b9ebd0eaced13c92c81716') in 0.060799 seconds 
+  Import took 0.067917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTiles.mat
+  artifactKey: Guid(fd8b812f2afcb2b4c877e4d588757bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTiles.mat using Guid(fd8b812f2afcb2b4c877e4d588757bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3589730f212de42543d41898dcea8d') in 0.062097 seconds 
+  Import took 0.069235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneWithMoss.mat
+  artifactKey: Guid(8b401c03d7545304bbad08adb91f76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneWithMoss.mat using Guid(8b401c03d7545304bbad08adb91f76c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c090b9e93c2b9b5a459ea0cfd0766a8') in 0.056381 seconds 
+  Import took 0.063410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_Stone.mat
+  artifactKey: Guid(8628bbb96b7452f408391633ad99fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_Stone.mat using Guid(8628bbb96b7452f408391633ad99fd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07409c9dea24060608b479e3fff50708') in 0.058346 seconds 
+  Import took 0.065623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_FlatStoneBricksWithMoss.mat
+  artifactKey: Guid(c2d573fb3fcea8446966e6eb1c318b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_FlatStoneBricksWithMoss.mat using Guid(c2d573fb3fcea8446966e6eb1c318b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa04fa340e55e9bbbde12f169f755f9') in 0.017768 seconds 
+  Import took 0.022631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_LargeStoneBricks.mat
+  artifactKey: Guid(3688442759f523043b71f5ed37ea58e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_LargeStoneBricks.mat using Guid(3688442759f523043b71f5ed37ea58e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f5c1be77033b4c03a165140ea1bee8') in 0.019865 seconds 
+  Import took 0.024184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneSlabs.mat
+  artifactKey: Guid(7cb3ff817340f9e4a90ec0b8345a48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_StoneSlabs.mat using Guid(7cb3ff817340f9e4a90ec0b8345a48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4106ec0aad8a3d68a2d5c4f7e8a7adbd') in 0.017103 seconds 
+  Import took 0.021782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_StoneBricks.mat
+  artifactKey: Guid(d7b54407c58f0864f9b6838e239b06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_PreB_4K_StoneBricks.mat using Guid(d7b54407c58f0864f9b6838e239b06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21995b4d7b522dc00e1a90d26a9b59cb') in 0.056219 seconds 
+  Import took 0.064005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTilesWithMoss.mat
+  artifactKey: Guid(dbd746886cff22446944d269cd99c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Forge Studio/Modular Dungeon Pack/MDP_Materials/MDP_Mat_PreBaked/MDP_Mat_PreB_4K/MDP_Mat_Preb_4K_SquareStoneTilesWithMoss.mat using Guid(dbd746886cff22446944d269cd99c496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eadeb6037c4a316cec407140c482d46') in 0.018500 seconds 
+  Import took 0.022966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.343234 seconds.
+  path: Assets/Scripts/Interactions
+  artifactKey: Guid(42749a014c04cb947b0be72c7616b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactions using Guid(42749a014c04cb947b0be72c7616b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b561823e4c9e190eb31763720ae308') in 0.005168 seconds 
+  Import took 0.045630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.654910 seconds.
+  path: Assets/Scripts/Interactions/RainbowBookcases
+  artifactKey: Guid(81daae8d2e99aa54da4522f37935d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactions/RainbowBookcases using Guid(81daae8d2e99aa54da4522f37935d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74751d89a3252b25bce727072064e87e') in 0.004974 seconds 
+  Import took 0.046336 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
